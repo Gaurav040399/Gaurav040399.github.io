@@ -28,7 +28,7 @@ darkmode.onclick = () => {
 
 document.getElementById("resume-link-1").addEventListener("click", () => {
   window.open(
-    "https://drive.google.com/file/d/10djl9GM1DbYpvoowgRtHdNLv5BSx7Gsb/view?usp=share_link",
+    "https://drive.google.com/file/d/1b0gW5M03rF9LhgXnkX_a93kL2bjH3UJj/view?usp=drive_link",
     "_blank"
   );
 });
@@ -36,7 +36,7 @@ document.getElementById("resume-link-1").addEventListener("click", () => {
 document.getElementById("resume-link-2").addEventListener("click", () => {
   // console.log("OPENinig.....");
   window.open(
-    "https://drive.google.com/file/d/10djl9GM1DbYpvoowgRtHdNLv5BSx7Gsb/view?usp=share_link",
+    "https://drive.google.com/file/d/1b0gW5M03rF9LhgXnkX_a93kL2bjH3UJj/view?usp=drive_link",
     "_blank"
   );
 });
