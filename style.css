@@ -113,9 +113,7 @@ header.shadow {
 }
 
 #home {
-    /* position: relative;
-    width: 100%;
-    min-height: 100vh; */
+    height: 100vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr)  ;
     align-items: center;
@@ -214,10 +212,15 @@ header.shadow {
     font-size: var(--p-font);
     font-weight: 400;
     text-align: justify;
+    margin-bottom: 20px;
 }
 
 .information {
     margin: 1rem 0 1.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .information .info-box {
@@ -353,6 +356,7 @@ span {
     padding: 10px;
     width: 100%;
     height: 50%;
+    text-align: start;
   }
 .project-tech-stack1{
     width: 100%;
@@ -670,3 +674,5 @@ form textarea {
       }
     
   }
+
+ 
